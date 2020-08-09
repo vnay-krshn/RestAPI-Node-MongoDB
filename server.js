@@ -28,4 +28,4 @@ mongoose.connect(process.env.DB_CONNECTION,{ useNewUrlParser: true } ,()=>{
     console.log("connected to database successfully") 
 })
 
-app.listen(3000) 
+app.listen(80) 
