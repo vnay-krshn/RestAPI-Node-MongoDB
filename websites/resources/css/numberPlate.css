@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav{
+    background-color: blue;
+   display: flex;
+   justify-content: space-evenly;
+   padding:15px 30px 10px 30px;
+}
+li a{
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}
+
+.black{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    width: 83%;
+}
+
+.search{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    width: 83%;
+}
+
+button{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#display{
+    position: absolute;
+    height: 800px;
+    width: 580px;
+    top:50%;
+    left:10%;
+}

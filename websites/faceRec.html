@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Beyond | Face Recogniton</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/resources/css/faceRec.css'>
+    <script src='/resources/js/faceRec.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faceRec.html">Face recognition</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="numberPlate.html">Number plate detection</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="poi.html">POI</a>
+        </li>       
+    </ul>
+    <video id="video" width="50%" autoplay></video>
+    <div class="buttons">
+        <button type="button" class="btn btn-primary" id="one" onclick="start()">Start</button>
+        <button type="button" class="btn btn-primary" id="two" onclick="stop()">Stop</button>
+        <button type="button" class="btn btn-primary" id="three">Scan</button>
+    </div>
+</body>
+</html>

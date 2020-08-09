@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav{
+   background-color: blue;
+   display: flex;
+   justify-content: space-evenly;
+   padding:15px 30px 10px 30px;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 4%;
+    left: 17%;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}

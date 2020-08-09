@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav{
+   background-color: blue;
+   display: flex;
+   justify-content: space-evenly;
+   padding:15px 30px 10px 30px;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}
+
+#first{
+  position: absolute;
+  left: 31%;
+  top:34%;
+  font-size: 80px;
+  font-weight: lighter;
+  letter-spacing: 40px;
+}
+
+#sec{
+    position: absolute;
+    left: 23%;
+    top:55%;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 4px;
+   
+}
+
+

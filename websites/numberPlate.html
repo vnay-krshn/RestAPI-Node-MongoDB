@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Beyond | Number Plate Detection</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/resources/css/numberPlate.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+</head>
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faceRec.html">Face recognition</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="numberPlate.html">Number plate detection</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="poi.html">POI</a>
+        </li>       
+    </ul>
+    <div class="black">
+    <div class="input-group mb-3">
+        <input type="text" id="insert" class="form-control" placeholder="Enter vehicle number to be blacklisted" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append"></div>
+            <button class="button" id="post">Blacklist</button>
+        </div>
+    </div>  
+    </div>
+    
+    <div class="search">
+        <div class="input-group mb-3">
+            <input type="text" id="retrieve" class="form-control" placeholder="Enter vehicle number to get information" aria-label="Recipient's username" aria-describedby="basic-addon2" name="RegNumber">
+            <div class="input-group-append">
+                <button  type="submit" class="button" id="get">Search</button>
+            </div>
+        </div>  
+    </div>
+    <div id="display"></div>
+    
+        <script src="resources/js/numberPlate.js"></script>
+</body>
+</html>
